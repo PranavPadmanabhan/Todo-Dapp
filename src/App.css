@@ -1,0 +1,91 @@
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(231, 231, 231);
+}
+.container {
+  width: 80%;
+  height: 80%;
+  max-width: 600px;
+  max-height: 600px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+.input_container {
+  width: 100%;
+  height: 15%;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(179, 179, 179);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-inline: 2rem;
+}
+.input {
+  width: 70%;
+  height: 50%;
+  border: none;
+  background-color: rgb(200, 200, 252);
+  border-radius: 10px;
+  padding-left: 1rem;
+}
+.input:focus {
+  outline: none;
+}
+.input::placeholder {
+  font-style: italic;
+}
+
+.Add {
+ width: 20%;
+ height: 50%;
+ border: none;
+ background-color: navy;
+ color: white;
+ border-radius: 5px;
+}
+
+.content {
+  width: 100%;
+  height: 85%;
+  background-color: rgb(200, 200, 252);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 1rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-style: oblique;
+}
+.Todos {
+  width: 80%;
+  min-height: 90%;
+  background-color: transparent;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  
+}
+
+.Todos::-webkit-scrollbar {
+  display: none;
+}
+.connect {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
